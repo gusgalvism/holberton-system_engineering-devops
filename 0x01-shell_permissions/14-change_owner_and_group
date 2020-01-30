@@ -1,0 +1,2 @@
+#!/bin/bash
+chown betty . -exec chgrp new_group . {} \+
