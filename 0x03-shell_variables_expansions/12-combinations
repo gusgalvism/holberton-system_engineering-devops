@@ -1,2 +1,2 @@
 #!/bin/bash
-charset=({a..z} !{o..o})
+charset={a..z}{a..z} | grep -v "oo"
